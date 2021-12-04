@@ -1,18 +1,3 @@
-*,
-*::before,
-*::after{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-
-.container{
-    width: 100%;
-    margin: 0 auto;
-    max-width: 1440px;
-}
-
 header{
     background-color:#212121;
     color: #ffffff;
@@ -57,7 +42,7 @@ header{
 }
 
 a::after{
-    content: "";
+    ontent: "";
     position: absolute;
     background-color: #ffffff;
     height: 3px;
